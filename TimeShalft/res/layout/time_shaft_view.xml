@@ -33,6 +33,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal" />
         </RelativeLayout>
-    </com.wynne.timeshalft.HorizontalScrollViewShaft>
+    </com.wynne.timeshaft.HorizontalScrollViewShaft>
 
 </FrameLayout>
