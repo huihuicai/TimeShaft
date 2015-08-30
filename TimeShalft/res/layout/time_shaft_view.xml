@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp" >
+
+    <com.wynne.timeshaft.HorizontalScrollViewShaft
+        android:id="@+id/time_line_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <View
+                android:id="@+id/base_line"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="18dp" />
+
+            <ImageView
+                android:id="@+id/move_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/base_line"
+                android:src="@drawable/time_shaft_car" />
+
+            <LinearLayout
+                android:id="@+id/time_line_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" />
+        </RelativeLayout>
+    </com.wynne.timeshalft.HorizontalScrollViewShaft>
+
+</FrameLayout>
